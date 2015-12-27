@@ -22,7 +22,8 @@
         <folder>languaje</folder>
     </files>
     <positions>
-        <position>Header</position>
+        <position>HeaderLogo</position>
+        <position>HeaderMenu</position>
         <position>Slider</position>
         <position>Articles</position>
         <position>Sidebar</position>
