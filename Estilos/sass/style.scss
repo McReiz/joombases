@@ -1,0 +1,22 @@
+@import "../../deb/bourbon/app/assets/stylesheets/bourbon";
+@import "fonts-mixins-vars";
+@import "content/init";
+
+/* ---------------------- Cabezeras / Headers ----------------------- */
+#main-header{
+    @import "content/head";
+}
+
+/* ---------------------- Cuerpo / body ----------------------------- */
+#main-content{
+    @import "content/body";
+    @include flex-direction(row);
+    @include align-items(flex-start);
+    @include justify-content(space-between);
+}
+
+/* ---------------------- Pies / footer ----------------------------- */
+
+/* ---------------------Efectos, actives, extras -------------------- */
+
+/* ---------------------- animaciones ------------------------------- */

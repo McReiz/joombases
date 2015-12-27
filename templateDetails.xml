@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+    <name>JoomBases</name>
+    <version>1.0</version>
+    <creationDate>24/12/2015</creationDate>
+    <author>el Reiz</author>
+    <authorEmail>xreizonx@gmail.com</authorEmail>
+    <copyright>Copyright (C) el Reiz - libre uso</copyright>
+    <description>Estas es mi base para mis proyectos</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>config.rb</filename>
+        <filename>bower.json</filename>
+        <filename>.bowerrc</filename>
+        <folder>deb</folder>
+        <folder>Estilos</folder>
+        <folder>scripts</folder>
+        <folder>languaje</folder>
+    </files>
+    <positions>
+        <position>Header</position>
+        <position>Slider</position>
+        <position>Articles</position>
+        <position>Sidebar</position>
+        <position>Footer</position>
+    </positions>
+</extension>

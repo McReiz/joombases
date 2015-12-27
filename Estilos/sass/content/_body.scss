@@ -1,0 +1,28 @@
+#posts,#sidebar{
+    @include box-sizing(border-box);
+}
+#posts{
+    width: 70%;
+    #post{
+        .thumbnail-single img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+#sidebar{
+    width:30%;
+}
+
+// extras
+#posts #post .post-content{
+    .post-dates{
+        .items{
+            display: inline-block;
+
+            div{
+                display: inline-block;
+            }
+        }
+    }
+}
