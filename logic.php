@@ -3,6 +3,7 @@
 // variables
 $app = JFactory::getApplication();
 $doc = JFactory::getDocument();
+$config = JFactory::getConfig();
 $menu = $app->getMenu();
 $active = $app->getMenu()->getActive();
 $params = $app->getParams();
